@@ -57,3 +57,50 @@ An elegant **Sentiment Analysis Web App** built using **PyTorch** and **Gradio**
 # 1️⃣ Clone the repository
 git clone https://github.com/yourusername/dark-sentiment-analyzer.git
 cd bert-sentiment-analyzer
+
+🧠 Usage
+
+Type or paste a sentence into the textbox.
+
+Click “🔍 Analyze Sentiment” to predict if it's positive or negative.
+
+Optionally, click “🐞 Debug” to view raw logits and probability distribution.
+
+🕶️ Dark Theme Design
+
+The UI is fully dark-mode, featuring:
+
+Teal & charcoal gradient palette
+
+Rounded cards and hover animations
+
+Accessible typography for low-light environments
+
+🧰 Example Debug Output
+🐞 Debug Mode:
+Raw logits: [-1.372, 3.284]
+Probabilities: [0.038, 0.962]
+
+
+Indicates the model is 96.2% confident the text is Positive.
+
+📈 Future Enhancements
+
+ Add neutral sentiment classification
+
+ Integrate multilingual support
+
+ Enable fine-tuning directly from interface
+
+ Host demo on Hugging Face Spaces
+
+🧑‍💻 Author
+
+👤 Umaim Tahir
+AI & NLP Enthusiast | Python Developer | ML Engineer
+📧 umaimtahir1@gmail.com
+
+
+📜 License
+
+This project is licensed under the MIT License – feel free to modify and build upon it.
